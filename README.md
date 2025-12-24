@@ -55,7 +55,7 @@ It supports the full identity credential lifecycle (issuance, verification, revo
 ### High Priority
 
 - Redefine the credential issuance form with stronger validation and more relevant fields.  
-- Integrate identity document processing for richer verification.[page:0]
+- Integrate identity document processing for richer verification.
 
 ### Medium Priority
 
@@ -63,12 +63,12 @@ It supports the full identity credential lifecycle (issuance, verification, revo
 - Implement an authentication layer for the Verification Interface.  
 - Extend unit and integration tests across all components with higher coverage.  
 - Improve performance across smart contracts, backend, and frontend.  
-- Add per-user secret keys for controlled credential access.[page:0]
+- Add per-user secret keys for controlled credential access.
 
 ### Low Priority
 
 - Support multiple wallet providers beyond MetaMask.  
-- Introduce age-based identity handling (e.g., special flows for users under 18).[page:0]
+- Introduce age-based identity handling (e.g., special flows for users under 18).
 
 
 
