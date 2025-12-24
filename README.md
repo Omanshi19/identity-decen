@@ -1,13 +1,13 @@
 # Decentralized Identity Verification System
 
-This project is a blockchain-based **decentralized identity** platform that lets individuals issue, manage, and revoke verifiable identity credentials using an Identity Digital Wallet, while third parties securely verify those credentials through a dedicated Verification Interface on an Ethereum-compatible network.[page:0]
+This project is a blockchain-based **decentralized identity** platform that lets individuals issue, manage, and revoke verifiable identity credentials using an Identity Digital Wallet, while third parties securely verify those credentials through a dedicated Verification Interface on an Ethereum-compatible network.
 
 ---
 
 ## Overview
 
-The system uses smart contracts deployed on the Ethereum Virtual Machine (EVM) to anchor credential state on-chain, while business logic and user interfaces run off-chain for flexibility and privacy-preserving data handling.[page:0]  
-It supports the full identity credential lifecycle (issuance, verification, revocation) with a focus on user control over sensitive data and seamless verifier workflows.[page:0]
+The system uses smart contracts deployed on the Ethereum Virtual Machine (EVM) to anchor credential state on-chain, while business logic and user interfaces run off-chain for flexibility and privacy-preserving data handling.
+It supports the full identity credential lifecycle (issuance, verification, revocation) with a focus on user control over sensitive data and seamless verifier workflows.
 
 <img width="4508" height="2080" alt="image" src="https://github.com/user-attachments/assets/8e7867b5-655e-4457-8a35-0ffa7bc8a0de" />
 
@@ -16,10 +16,10 @@ It supports the full identity credential lifecycle (issuance, verification, revo
 ## Architecture
 
 - **Smart Contracts (Solidity + Truffle)**  
-  Implement identity credential operations (issue, verify, revoke, query) and are deployed to a local Ganache-powered Ethereum network for development and testing.[page:0]
+  Implement identity credential operations (issue, verify, revoke, query) and are deployed to a local Ganache-powered Ethereum network for development and testing.
 
 - **Backend (Node.js, MVC + Web3.js)**  
-  Acts as the business logic layer, connecting the React frontend to the Ethereum network, orchestrating identity flows, and exposing APIs for credential operations.[page:0]
+  Acts as the business logic layer, connecting the React frontend to the Ethereum network, orchestrating identity flows, and exposing APIs for credential operations.
 
 - **Frontend (React.js)**  
   Provides the Identity Digital Wallet UI and Verification Interface, enabling MetaMask connection, credential management, and verification screens for third parties.[page:0]
