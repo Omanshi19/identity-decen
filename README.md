@@ -22,19 +22,19 @@ It supports the full identity credential lifecycle (issuance, verification, revo
   Acts as the business logic layer, connecting the React frontend to the Ethereum network, orchestrating identity flows, and exposing APIs for credential operations.
 
 - **Frontend (React.js)**  
-  Provides the Identity Digital Wallet UI and Verification Interface, enabling MetaMask connection, credential management, and verification screens for third parties.[page:0]
+  Provides the Identity Digital Wallet UI and Verification Interface, enabling MetaMask connection, credential management, and verification screens for third parties.
 
 - **Ganache Module (Shell scripts)**  
-  Automates local blockchain setup, reset, and startup, including mnemonic generation and test accounts on `http://127.0.0.1:8545`.[page:0]
+  Automates local blockchain setup, reset, and startup, including mnemonic generation and test accounts on `http://127.0.0.1:8545'.
 
 ---
 
 ## Project Structure
 
-- `smart_contracts/` – Truffle project containing the Identity smart contract, migrations, and tests (`truffle compile`, `truffle migrate --reset`, `truffle test`).[page:0]  
-- `backend/` – Node.js MVC server integrating with Web3.js, using environment variables like `GANACHE_RPC_URL` and `DEPLOYED_CONTRACT_ADDRESS`, and exposing APIs to the frontend.[page:0]  
-- `frontend/` – React application for wallet connection, credential issuance, revocation, and viewing identity credentials, typically served at `http://localhost:3000`.[page:0]  
-- `ganache/` – Shell scripts (`config-ganache.sh`, `start-ganache.sh`) to initialize and manage the local Ganache blockchain, driven by a mnemonic stored in `.env`.[page:0]  
+- `smart_contracts/` – Truffle project containing the Identity smart contract, migrations, and tests (`truffle compile`, `truffle migrate --reset`, `truffle test`).
+- `backend/` – Node.js MVC server integrating with Web3.js, using environment variables like `GANACHE_RPC_URL` and `DEPLOYED_CONTRACT_ADDRESS`, and exposing APIs to the frontend.
+- `frontend/` – React application for wallet connection, credential issuance, revocation, and viewing identity credentials, typically served at `http://localhost:3000`. 
+- `ganache/` – Shell scripts (`config-ganache.sh`, `start-ganache.sh`) to initialize and manage the local Ganache blockchain, driven by a mnemonic stored in `.env`.
 - `resources/` – Diagrams for the high-level system architecture and smart contract design.[page:0]
 
 ---
@@ -46,7 +46,7 @@ It supports the full identity credential lifecycle (issuance, verification, revo
 - Solidity and Truffle Suite  
 - Ganache (CLI) for local EVM  
 - Web3.js  
-- MetaMask browser extension[page:0]
+- MetaMask browser extension
 
 ---
 
