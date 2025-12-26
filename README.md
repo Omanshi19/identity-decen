@@ -5,7 +5,7 @@ This project is a blockchain-based **decentralized identity** platform that lets
 ---
 
 ## Overview
-
+ 
 The system uses smart contracts deployed on the Ethereum Virtual Machine (EVM) to anchor credential state on-chain, while business logic and user interfaces run off-chain for flexibility and privacy-preserving data handling.
 It supports the full identity credential lifecycle (issuance, verification, revocation) with a focus on user control over sensitive data and seamless verifier workflows.
 
