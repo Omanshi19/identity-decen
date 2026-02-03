@@ -11,7 +11,7 @@ It supports the full identity credential lifecycle (issuance, verification, revo
 
 <img width="4508" height="2080" alt="image" src="https://github.com/user-attachments/assets/8e7867b5-655e-4457-8a35-0ffa7bc8a0de" />
 
----  
+---   
 
 ## Architecture
 
