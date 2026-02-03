@@ -13,7 +13,7 @@ It supports the full identity credential lifecycle (issuance, verification, revo
 
 ---     
   
-## Architecture   
+## Architecture    
  
 - **Smart Contracts (Solidity + Truffle)**   
   Implement identity credential operations (issue, verify, revoke, query) and are deployed to a local Ganache-powered Ethereum network for development and testing.
